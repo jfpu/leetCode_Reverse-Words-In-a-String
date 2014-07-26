@@ -12,9 +12,10 @@ public:
 		
 		string::iterator it = s.begin();
 		while(isspace(*it) && it != s.end()) {
-            ++it;
+            		++it;
 			continue;
-        }
+        	}
+        	
 		for(; it != s.end(); ++it) {
 			if(isspace(*it)) {
 				sh = true;
